@@ -1,0 +1,46 @@
+
+{
+  "burgers": 
+  [
+    {
+
+    "id": 0,
+    "name": "Tribute burger",
+    "restaurant": "Honest burger",
+    "web": "www.honestburger.com",
+    "description": "A mouth watering honest beef burger",
+    "ingredients": ["beef", "cheese", "burger sauce", "mustard"],
+    "addresses": [{
+      "address_id": "0",
+      "number": "75",
+      "line1": "Venn Street",
+      "line2": "Clapham",
+      "postcode": "42134",
+      "country": "Malaysia"
+    }]
+
+  },
+
+  {
+
+    "id": 1,
+    "name": "Happy burger",
+    "restaurant": "Fun burger",
+    "web": "www.funburger.com",
+    "description": "A delicious watering honest beef burger",
+    "ingredients": ["chicken", "cheese", "burger sauce", "mustard"],
+    "addresses": [{
+      "address_id": "0",
+      "number": "75",
+      "line1": "Big Street",
+      "line2": "Pahang",
+      "postcode": "42134",
+      "country": "Malaysia"
+    }]
+
+  }
+
+
+]
+
+}
