@@ -23,3 +23,32 @@ ex : http://localhost:3000/burgers
 1. Sign in to heroku
 2. Open terminal
 3. Push api db to remote repo
+ex : git push origin HEAD
+4. initiliase project backend
+ex : npm init
+5. make api show up and running to heroku (installation)
+ex : npm i
+ex : npm i json-server
+ex : npm i json-server --registry https://registry.npmjs.org
+
+6. make a script
+-open package.json, under scripts add
+ex : "start" : "node server.js"
+7. create backend file
+ex : server.js
+8. add required module in server.js
+
+// add json server package
+const jsonServer = require('json-server');
+// use the package
+const server = jsonServer.create();
+const router = jsonServer.router('db.json');
+const middleware = jsonServer.defaults();
+const port = process.env.port || 3000;
+
+server.use(middleware);
+server.use(router);
+
+server.listen(port);
+
+9. add .gitignore files and add the project to remote repository

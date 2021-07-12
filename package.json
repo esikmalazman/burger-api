@@ -1,0 +1,23 @@
+{
+  "name": "burger-api",
+  "version": "1.0.0",
+  "description": "Tutorial burger api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esikmalazman/burger-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esikmalazman/burger-api/issues"
+  },
+  "homepage": "https://github.com/esikmalazman/burger-api#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
