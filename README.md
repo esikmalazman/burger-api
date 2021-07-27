@@ -52,3 +52,27 @@ server.use(router);
 server.listen(port);
 
 9. add .gitignore files and add the project to remote repository
+
+10. install heroku
+ex : brew tap heroku/brew && brew install heroku
+
+11. add registry to the heroku
+ex : npm install -g heroku --registry https://registry.npmjs.org
+
+12. check heroku version to identify its been install
+ex : heroku --version
+
+13. create a project link using heroku
+ex : heroku create project-name
+
+14. sign in to heroku
+ex : heroku login
+
+15. create a project in heroku
+ex : heroku create project-name
+
+16. push the project to heroku
+ex : git push heroku main
+
+17. open the project on heroku
+ex : heroku open
